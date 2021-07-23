@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+
+.tdb-display-area {
+    display: flex;
+    height: 610px;
+}
+.tdb-display {
+    width: 100%;
+    background-attachment: #a4dff7;
+}
+.tabs-showIcons {
+    height: 610px;
+    width: 100px;
+    background-color: #5cc8f3;
+}
+.tabs-showAll {
+    height: 610px;
+    width: 230px;
+    background-color: #5cc8f3;
+}
+.active {
+    color: rgb(114, 114, 110);
+    background-color: #acdff3;
+}
+.active-reveal {
+    width: 4%;
+}
+.hide-reveal {
+    display: none;
+}
+.switch-chevronL {
+    cursor: pointer;
+    width: 55px;
+    height: 45px;
+    background-color: #acdff3;
+    display: flex;
+    top: 440px;
+    border-radius: 4px;
+    position: relative;
+    left: 155px;
+}
+.switch-chevronL img {
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.switch-chevronR {
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+    background-color: #acdff3;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 20px;
+}
+.switch-chevronR img {
+    width: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.move-arrow {
+    display: none;
+}
+.tiny-link-card {
+    margin-right: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+.tiny-link-card img {
+    width: 15px;
+}
+.dash-tiny-links {
+    width: 12%;
+    font-size: 12px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left:0px;
+    margin-top: 250px;
+}
+.tabs-tiny-links {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 30px;
+    height: 90px;
+}
+.tabs-tiny-links img {
+    width: 20px;
+}
+button {
+    align-items: center;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: white;
+    background-color: #5cc8f3;
+    border: none;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    font-family: "Mukta", sans-serif;
+}
+button:hover .popList li {
+    top: 50%;
+    transition: all 0.5s ease;
+}
+button img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+.btn-group {
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    right: 40px;
+    margin-top: 6px;
+}
+.btn-group button {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    width: 130px;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 6px;
+    border: none;
+    justify-content: center;
+}
+.take-btn {
+    background-color: #e7aa2c;
+}
+.help-btn {
+    background-color: #fb2085;
+}
+.more-btn {
+    background-color: #36c1f6;
+}
+.studentInfo {
+    width: 93%;
+    height: 620px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    right: -50px;
+    color: grey;
+    background-color: rgb(218, 231, 247);
+    border-radius: 20px;
+}
+.avatar-area {
+    padding-top: 20px;
+    width: 30px;
+    margin: auto;
+}
+.avatar-area img {
+    width: 50px;
+    padding-bottom: 15px;
+}
+.avatar-onTabs {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    background-size: 70%;
+}
+.select-tab1 {
+    background-color: #5cc8f3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.active-select-tab1 {
+    background-color: #acdff3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.select-tab2 {
+    background-color: #5cc8f3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.active-select-tab2 {
+    background-color: #acdff3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.select-tab3 {
+    background-color: #5cc8f3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.active-select-tab3 {
+    background-color: #acdff3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.select-tab4 {
+    background-color: #5cc8f3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.active-select-tab4 {
+    background-color: #acdff3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.select-tab5 {
+    background-color: #5cc8f3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
+.active-select-tab5 {
+    background-color: #acdff3;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+}
