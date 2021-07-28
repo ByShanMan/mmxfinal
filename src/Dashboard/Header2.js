@@ -9,11 +9,11 @@ function Header2() {
                     <img src="starlogo.png" alt="logo" />
                 </a>
             </div>
-            <div className="header-centre">
+            <div className="spacer">
             </div>
             <div className="header-flags">
                 <img id="lang" src="lang.png" alt="language" />
-                <img id="maori-flag" src="maoriflag.png" alt="Maori flag" />
+                <img id="maori-flag" src="maoriflag.png" alt="maoriflag" />
                 <img id="nz-flag" src="nzflag.png" alt="nz flag"/>
             </div>
         </div>

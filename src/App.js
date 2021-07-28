@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from "react-router-dom";
-import TDashApp from './TDashboard/TDashApp';
+import DashboardApp from './Dashboard/DashboardApp';
 import './App.css';
 
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
        <div className="App">
-         <TDashApp />
+         <DashboardApp />
        </div>
     </Router>
   );
