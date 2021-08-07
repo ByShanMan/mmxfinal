@@ -5,7 +5,7 @@ import { useState } from 'react';
 import ProgressTracker from './SubComponents/ProgressTracker';
 import StudentProfiles from './SubComponents/StudentProfiles';
 import HelpRequests from './SubComponents/HelpRequests';
-import ProjectSubmissions from './SubComponents/HelpRequests'
+import ProjectSubmissions from './SubComponents/ProjectSubmissions';
 
 
 const Dashboard = () => {
@@ -41,7 +41,7 @@ const Dashboard = () => {
 
                     <div className = 'drawer-nav'>
 
-                        <NavLink to = "/ProgressTracker.js" style = {{width: '100%', textDecoration: 'none', margin: '2.5% auto'}} activeStyle = {{backgroundColor: '#B2E4FA', borderRadius: '10px'}} >
+                        <NavLink to = "/ProgressTracker.js" style = {{width: '100%', textDecoration: 'none', margin: '1.5% auto'}} activeStyle = {{backgroundColor: '#B2E4FA', borderRadius: '10px'}} >
                             <div className = 'nav-buttons'>
                                 <img className = {clsx('nav-icons', {
                                                 ['iconsLarge']: !large,
@@ -92,8 +92,7 @@ const Dashboard = () => {
                                 })} >PROJECT SUBMISSIONS</h2>
                             </div>
                         </NavLink>
-
-                        <NavLink to = "/non.js" style = {{width: '100%', textDecoration: 'none', margin: '2.5% auto'}} activeStyle = {{backgroundColor: '#B2E4FA', borderRadius: '10px'}} >
+                        <NavLink to = "" style = {{width: '100%', textDecoration: 'none', margin: '2.5% auto'}} activeStyle = {{backgroundColor: '#B2E4FA', borderRadius: '10px'}} >
                             <div className = 'nav-buttons'>
                                 <img className = {clsx('nav-icons', {
                                                 ['iconsLarge']: !large,
@@ -106,12 +105,6 @@ const Dashboard = () => {
                             </div>
                         </NavLink>
                     </div>
-
-
-
-
-
-
 
                     <a onClick = { handleDrawerClose } className = {clsx('carets', {
                                                     ['hidden']: !large,
@@ -130,16 +123,13 @@ const Dashboard = () => {
                             <img id = 'caret-left' src ="opencaretr.png" />
                         </div>
                     </a>
-
-
-
                     <div className = {clsx('bottom-nav', {
                                     ['bottom-flex']: open,
                                     ['bottom-flex']: !open,
                     })} >
 
                             <a href = '#' className = 'bottom-links'>
-                                <img className = 'bottom-img' src ="openprofile.png" />
+                                <img className = 'bottom-img' src ="profileicon.png" />
                                 <p className = {clsx('bottom-text', {
                                             ['hidden']: !large,
                                             ['hidden']: large,
@@ -147,7 +137,7 @@ const Dashboard = () => {
                             </a>
 
                             <a href = '#' className = 'bottom-links'>
-                                <img className = 'bottom-img' src ="opensettings.png" />
+                                <img className = 'bottom-img' src ="settingsicon.png" />
                                 <p className = {clsx('bottom-text', {
                                             ['hidden']: !large,
                                             ['hidden']: large,
@@ -155,20 +145,15 @@ const Dashboard = () => {
                             </a>
 
                             <a href = '#' className = 'bottom-links'>
-                                <img className = 'bottom-img' src ="logout.png" />
+                                <img className = 'bottom-img' src ="logouticon.png" />
                                 <p className = {clsx('bottom-text', {
                                             ['hidden']: !large,
                                             ['hidden']: large,
-                                })} >Log Out</p>
+                                })} >Logout</p>
                             </a>
-
                     </div>
                 </div>
-
-
-
                 <div className = 'dash-wrap'>
-
                     <div className = 'inlay'>
 
                             <Switch>

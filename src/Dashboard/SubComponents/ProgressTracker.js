@@ -3,7 +3,7 @@ import React from 'react';
 function ProgressTracker() {
     return (
         <div>
-            <h2>Student Profiles</h2>
+            <h2>Progress Tracker</h2>
         </div>
         );
     }

@@ -5,7 +5,7 @@ function Footer2() {
     return (
         <div className="footer2">
             <div className="foot-other">
-            &copy; LevelUp Works 2020
+           <h2> &copy; LevelUp Works 2020</h2>
             </div>
         </div>
     );

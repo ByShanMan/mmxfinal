@@ -42,7 +42,36 @@
 /* footer css */
 .footer2 {
     height: 5%;
+    font-size: 15px;
 }
 .foot-other {
     text-align: center;
 }
+.btn-group {
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    right: 40px;
+    margin: 15px;
+    padding: 10px;
+}
+.btn-group button {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    width: 130px;
+    font-size: 13px;
+    padding: 3px;
+    border-radius: 6px;
+    border: none;
+  }
+  .take-btn {
+    background-color: #e7aa2c;
+  }
+  .help-btn {
+    background-color: #fb2085;
+  }
+  .more-btn {
+    background-color: #36c1f6;
+  }

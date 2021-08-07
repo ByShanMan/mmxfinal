@@ -9,7 +9,10 @@ function Header2() {
                     <img src="starlogo.png" alt="logo" />
                 </a>
             </div>
-            <div className="spacer">
+            <div className="btn-group">
+                <button className="take-btn">Take Screenshot</button>
+                <button className="help-btn">Help Center</button>
+                <button className="more-btn">More Projects</button>
             </div>
             <div className="header-flags">
                 <img id="lang" src="lang.png" alt="language" />
